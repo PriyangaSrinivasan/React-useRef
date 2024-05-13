@@ -17,7 +17,8 @@ const UseReducerhook = ({data}) => {
             {state}
             </><br></br>
             <button className="add" onClick={()=>{dispatch({type:'ADD',payload:1})}}>+</button>
-            <button className="sub" onClick={()=>{dispatch({type:'SUB',payload:1})}}>-</button>
+            <button className="sub" onClick={()=>{dispatch({type:'SUB',payload:1})}}>-</button><br></br>
+            <button className="reset" onClick={()=>{dispatch({type:'RESET',payload:0})}}>RESET</button>
         </div>
     );
 };

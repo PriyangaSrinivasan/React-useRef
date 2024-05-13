@@ -5,7 +5,10 @@ export default function ReducerAction(state,action){
         }
         case 'SUB':{
             return state-action.payload
-        }    
+        }  
+        case 'RESET':{
+            return state*action.payload
+        }   
         default:{
              return state
         }
