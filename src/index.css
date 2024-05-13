@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+}
+button{
+  margin:10px;
+}
+.add{
+  background-color: brown;
+  color:bisque
+}
+.sub{
+  background-color:blueviolet;
+  color:white;
+  
+}
